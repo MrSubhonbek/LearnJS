@@ -1,7 +1,6 @@
 function findOdd(A) {
     //happy coding!
     A.sort();
-    let odd;
     let count = 1;
     for (let index = 0; index < A.length; index++) {
         if (A[index] == A[index + 1]) {
